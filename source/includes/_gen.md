@@ -65,3 +65,35 @@ All endpoints below require the `image.gen` permission.
 | Property name | Type   | Description |
 |---------------|--------|-------------|
 | text          | String | text you want to use in the picture (< 30 length) |
+
+<h6 class="endpoint post"></h6>
+## /durv
+<img src="./images/preview/durv.png" class="preview-img long">
+
+|             |                      |
+|-------------|----------------------|
+| Render Time | Fast (< 1.5s)        |
+| Permission  | image.gen.light.durv |
+| Dimensions  | 401 x 226            |
+
+### Body Object
+
+| Property name | Type   | Description |
+|---------------|--------|-------------|
+| picture       | String | url you want to use in the picture |
+
+<h6 class="endpoint post"></h6>
+## /eliminated
+<img src="./images/preview/eliminated.png" class="preview-img">
+
+|             |                            |
+|-------------|----------------------------|
+| Render Time | Average (3-5s)             |
+| Permission  | image.gen.light.eliminated |
+| Dimensions  | > 381 x 70                 |
+
+### Body Object
+
+| Property name | Type   | Description |
+|---------------|--------|-------------|
+| text          | String | text you want to use in the picture (< 30 length) |
