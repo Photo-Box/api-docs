@@ -51,17 +51,17 @@ All endpoints below require the `image.gen` permission.
 | text          | String | text you want to use in the picture (< 100 length) |
 
 <h6 class="endpoint post"></h6>
-## /clint
-<img src="./images/preview/clint.png" class="preview-img long">
+## /dogbite
+<img src="./images/preview/dogbite.png" class="preview-img">
 
-|             |                       |
-|-------------|-----------------------|
-| Render Time | Okay (~2s)            |
-| Permission  | image.gen.light.clint |
-| Dimensions  | 1200 x 675            |
+|             |                         |
+|-------------|-------------------------|
+| Render Time | Fast (< 1.5s)           |
+| Permission  | image.gen.light.dogbite |
+| Dimensions  | 500 x 491               |
 
 ### Body Object
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture |
+| text          | String | text you want to use in the picture (< 30 length) |
