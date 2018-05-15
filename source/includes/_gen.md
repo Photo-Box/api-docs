@@ -32,7 +32,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture (< 100 length) |
+| picture       | String | url you want to use in the picture |
 
 <h6 class="endpoint post"></h6>
 ## /changemymind
@@ -48,4 +48,20 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| text          | String | text you want to use in the picture |
+| text          | String | text you want to use in the picture (< 100 length) |
+
+<h6 class="endpoint post"></h6>
+## /clint
+<img src="./images/preview/clint.png" class="preview-img long">
+
+|             |                       |
+|-------------|-----------------------|
+| Render Time | Okay (~2s)            |
+| Permission  | image.gen.light.clint |
+| Dimensions  | 1200 x 675            |
+
+### Body Object
+
+| Property name | Type   | Description |
+|---------------|--------|-------------|
+| picture       | String | url you want to use in the picture |
