@@ -215,7 +215,7 @@ All endpoints below require the `image.gen` permission.
 
 <h6 class="endpoint post"></h6>
 ## /waifu
-<img src="./images/preview/waifu.png" class="preview-img">
+<img src="./images/preview/waifu.png" class="preview-img long">
 
 |             |                       |
 |-------------|-----------------------|
