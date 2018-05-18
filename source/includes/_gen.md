@@ -16,7 +16,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| text          | String | text you want to use in the picture (< 100 length) |
+| text          | String | text you want to use in the picture (max length is 100) |
 
 <h6 class="endpoint post"></h6>
 ## /art
@@ -32,7 +32,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture |
+| picture       | String | URL of the picture you want to reference |
 
 <h6 class="endpoint post"></h6>
 ## /changemymind
@@ -48,7 +48,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| text          | String | text you want to use in the picture (< 100 length) |
+| text          | String | text you want to use in the picture (max length is 100) |
 
 <h6 class="endpoint post"></h6>
 ## /dogbite
@@ -64,7 +64,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| text          | String | text you want to use in the picture (< 30 length) |
+| text          | String | text you want to use in the picture (max length is 30) |
 
 <h6 class="endpoint post"></h6>
 ## /durv
@@ -80,7 +80,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture |
+| picture       | String | URL of the picture you want to reference |
 
 <h6 class="endpoint post"></h6>
 ## /eliminated
@@ -96,7 +96,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| text          | String | text you want to use in the picture (< 30 length) |
+| text          | String | text you want to use in the picture (max length is 30) |
 
 <h6 class="endpoint post"></h6>
 ## /firstwords
@@ -112,7 +112,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| text          | String | text you want to use in the picture (< 100 length) |
+| text          | String | text you want to use in the picture (max length is 100) |
 
 <h6 class="endpoint post"></h6>
 ## /nickelback
@@ -128,7 +128,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture |
+| picture       | String | URL of the picture you want to reference |
 
 <h6 class="endpoint post"></h6>
 ## /okbyemom
@@ -144,7 +144,24 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| text          | String | text you want to use in the picture (< 30 length) |
+| text          | String | text you want to use in the picture (max length is 30) |
+
+<h6 class="endpoint post"></h6>
+## /pornhub
+<img src="./images/preview/pornhub.png" class="preview-img long">
+
+|             |                         |
+|-------------|-------------------------|
+| Render Time | Okay (~2s)              |
+| Permission  | image.gen.light.pornhub |
+| Dimensions  | 805 x 628               |
+
+### Body Object
+
+| Property name | Type   | Description |
+|---------------|--------|-------------|
+| picture       | String | URL of the picture you want to reference |
+| title         | String | title of the video (max length is 30) |
 
 <h6 class="endpoint post"></h6>
 ## /respects
@@ -160,7 +177,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture |
+| picture       | String | URL of the picture you want to reference |
 
 <h6 class="endpoint post"></h6>
 ## /starvstheforcesof
@@ -176,7 +193,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture |
+| picture       | String | URL of the picture you want to reference |
 
 <h6 class="endpoint post"></h6>
 ## /tinder
@@ -192,8 +209,8 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| pictureOne    | String | url of the first picture want to use in reference |
-| pictureTwo    | String | url of the second picture want to use in reference |
+| pictureOne    | String | URL of the first picture want to reference |
+| pictureTwo    | String | UL of the second picture want to reference |
 
 <h6 class="endpoint post"></h6>
 ## /ttt
@@ -209,9 +226,9 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| title         | String | name to use in the title of the window (< 30 length) |
+| title         | String | name to use in the title of the window (max length is 30) |
 | avatar        | String | url of the avatar |
-| text          | String | text to use as content of the window (< 150 length) |
+| text          | String | text to use as content of the window (max length is 150) |
 
 <h6 class="endpoint post"></h6>
 ## /waifu
@@ -227,7 +244,7 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture |
+| picture       | String | URL of the picture you want to reference |
 
 <h6 class="endpoint post"></h6>
 ## /wanted
@@ -243,5 +260,5 @@ All endpoints below require the `image.gen` permission.
 
 | Property name | Type   | Description |
 |---------------|--------|-------------|
-| picture       | String | url you want to use in the picture |
-| title         | String | name to use in the poster (< 30 length) |
+| picture       | String | URL of the picture you want to reference |
+| title         | String | name to use in the poster (max length is 30) |
