@@ -163,14 +163,14 @@ All endpoints below require the `image.gen` permission.
 | picture       | String | url you want to use in the picture |
 
 <h6 class="endpoint post"></h6>
-## /starvstheforceof
-<img src="./images/preview/starvstheforceof.png" class="preview-img long">
+## /starvstheforcesof
+<img src="./images/preview/starvstheforcesof.png" class="preview-img long">
 
-|             |                                  |
-|-------------|----------------------------------|
-| Render Time | Slow (6-12s)                     |
-| Permission  | image.gen.light.starvstheforceof |
-| Dimensions  | 1920 x 1080                      |
+|             |                                   |
+|-------------|-----------------------------------|
+| Render Time | Slow (6-12s)                      |
+| Permission  | image.gen.light.starvstheforcesof |
+| Dimensions  | 1920 x 1080                       |
 
 ### Body Object
 
@@ -212,6 +212,22 @@ All endpoints below require the `image.gen` permission.
 | title         | String | name to use in the title of the window (< 30 length) |
 | avatar        | String | url of the avatar |
 | text          | String | text to use as content of the window (< 150 length) |
+
+<h6 class="endpoint post"></h6>
+## /waifu
+<img src="./images/preview/waifu.png" class="preview-img">
+
+|             |                       |
+|-------------|-----------------------|
+| Render Time | Fast (< 1.5s)         |
+| Permission  | image.gen.light.waifu |
+| Dimensions  | 450 x 340             |
+
+### Body Object
+
+| Property name | Type   | Description |
+|---------------|--------|-------------|
+| picture       | String | url you want to use in the picture |
 
 <h6 class="endpoint post"></h6>
 ## /wanted
