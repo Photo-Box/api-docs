@@ -86,11 +86,11 @@ All endpoints below require the `image.gen` permission.
 ## /eliminated
 <img src="./images/preview/eliminated.png" class="preview-img">
 
-|             |                            |
-|-------------|----------------------------|
-| Render Time | Average (3-5s)             |
-| Permission  | image.gen.light.eliminated |
-| Dimensions  | > 381 x 70                 |
+|             |                             |
+|-------------|-----------------------------|
+| Render Time | Average (3-5s)              |
+| Permission  | image.gen.medium.eliminated |
+| Dimensions  | > 381 x 70                  |
 
 ### Body Object
 
@@ -166,11 +166,11 @@ All endpoints below require the `image.gen` permission.
 ## /starvstheforcesof
 <img src="./images/preview/starvstheforcesof.png" class="preview-img long">
 
-|             |                                   |
-|-------------|-----------------------------------|
-| Render Time | Slow (6-12s)                      |
-| Permission  | image.gen.light.starvstheforcesof |
-| Dimensions  | 1920 x 1080                       |
+|             |                                    |
+|-------------|------------------------------------|
+| Render Time | Slow (6-12s)                       |
+| Permission  | image.gen.medium.starvstheforcesof |
+| Dimensions  | 1920 x 1080                        |
 
 ### Body Object
 
@@ -233,11 +233,11 @@ All endpoints below require the `image.gen` permission.
 ## /wanted
 <img src="./images/preview/wanted.png" class="preview-img">
 
-|             |                        |
-|-------------|------------------------|
-| Render Time | Slow (6-12s)           |
-| Permission  | image.gen.light.wanted |
-| Dimensions  | 889 x 1200             |
+|             |                         |
+|-------------|-------------------------|
+| Render Time | Slow (6-12s)            |
+| Permission  | image.gen.medium.wanted |
+| Dimensions  | 889 x 1200              |
 
 ### Body Object
 
