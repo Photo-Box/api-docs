@@ -97,7 +97,7 @@ All endpoints below require the `image.gen` permission.
 | Property name | Type    | Description |
 |---------------|---------|-------------|
 | text          | String  | text you want to use in the picture (max length is 30) |
-| fire          | Number? | number next to the fire symbol |
+| fire          | Number? | number next to the fire symbol (defaults to a number between 60-100) |
 
 <h6 class="endpoint post"></h6>
 ## /firstwords
