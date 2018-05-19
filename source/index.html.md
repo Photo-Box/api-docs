@@ -6,7 +6,7 @@ language_tabs:
 
 toc_footers:
   - <a href='mailto:me@snazzah-is.cool?subject=[PhotoBox]%20API%20key%20request'>E-mail for a Token</a>
-  - <a href='https://photobox/api/dashboard'>Manage Token</a>
+  - <a href='https://photobox.pw/api/dashboard'>Manage Token</a>
   - <a target="_blank" href='https://github.com/Photo-Box/api-docs'>Contribute to this documentation</a>
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
