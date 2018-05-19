@@ -94,9 +94,10 @@ All endpoints below require the `image.gen` permission.
 
 ### Body Object
 
-| Property name | Type   | Description |
-|---------------|--------|-------------|
-| text          | String | text you want to use in the picture (max length is 30) |
+| Property name | Type    | Description |
+|---------------|---------|-------------|
+| text          | String  | text you want to use in the picture (max length is 30) |
+| fire          | Number? | number next to the fire symbol |
 
 <h6 class="endpoint post"></h6>
 ## /firstwords
