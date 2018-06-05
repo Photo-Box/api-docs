@@ -13,6 +13,7 @@ toc_footers:
 includes:
   - auth
   - gen
+  - filter
   - errors
 
 search: true
