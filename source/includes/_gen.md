@@ -132,6 +132,22 @@ All endpoints below require the `image.gen` permission.
 | picture       | String | URL of the picture you want to reference |
 
 <h6 class="endpoint post"></h6>
+## /nutbutton
+<img src="./images/preview/nutbutton.png" class="preview-img">
+
+|             |                           |
+|-------------|---------------------------|
+| Render Time | Okay (~2s)                |
+| Permission  | image.gen.light.nutbutton |
+| Dimensions  | 600 x 446                 |
+
+### Body Object
+
+| Property name | Type   | Description |
+|---------------|--------|-------------|
+| text          | String | text you want to use in the picture (max length is 30) |
+
+<h6 class="endpoint post"></h6>
 ## /okbyemom
 <img src="./images/preview/okbyemom.png" class="preview-img">
 
